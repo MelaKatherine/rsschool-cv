@@ -16,15 +16,16 @@
 ### Education: 
 * Belarusian state university of transport 
 ### Code: 
-´´´const numbers = [45, 4, 9, 16, 25];
-let txt = "";
-numbers.forEach(myFunction);
+´´´const numbers = [45, 4, 9, 16, 25]; <br>
+   let txt = ""; <br>
+   numbers.forEach(myFunction);
 
-function myFunction(value, index, array) {
-  txt += value + "<br>";
+   function myFunction(value, index, array) { <br>
+   txt += value + "<br>";
 } ´´´
 
-### Projects:  [RSS school](https://app.rs.school/)
+### Projects: 
+* [RSS school](https://app.rs.school/)
 ### Languages: 
 * Russian - native speaker
 * English - B1
