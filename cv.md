@@ -8,9 +8,13 @@
 ### Skills: 
 * web-development: HTMl, CSS, JS junior; 
 * version control: GIT, GITHUB
-### Graphics: Figma
-### Courses: JS for beginner
-### Education: Belarusian state university of transport 
+### Graphics: 
+* Figma
+### Courses: 
+* JS for beginner
+* HTML/CSS Czechitas
+### Education: 
+* Belarusian state university of transport 
 ### Code: 
 ´´´const numbers = [45, 4, 9, 16, 25];
 let txt = "";
@@ -21,6 +25,9 @@ function myFunction(value, index, array) {
 } ´´´
 
 ### Projects:  [RSS school](https://app.rs.school/)
-### English: B1
+### Languages: 
+* Russian - native speaker
+* English - B1 in process
+* Czech - C1
 ### Summary:
 I´m a civil engineer, but I would like to change the style of my life. I want to achieve more flexibility,learn something new and become an excellent expert. 
