@@ -132,6 +132,24 @@ body{
     font-style: italic;
 
 }
+.skills__item{
+    padding-bottom: 16px;
+}
 .skills__item, .education__item{
     margin-bottom: 30px;
+    
+}
+.education__info{
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 1px solid #EDEDED;
+ padding-bottom: 15px;
+
+ 
+}
+
+.education__info img{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
 }
