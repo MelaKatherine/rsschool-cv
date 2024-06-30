@@ -31,7 +31,7 @@ ul{
 body{
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 24px;
     color: #242424;
 }
 .container{
@@ -104,4 +104,34 @@ body{
 .about__inner p{
     font-family: "Spectral", serif;
     font-size: 27px;
+}
+
+
+.info{
+    margin-top: 80px;
+}
+.info__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.skills, .education{
+    flex-basis: 580px;
+}
+.info__title{
+    font-size: 27px;
+    color:#DB9291;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+.info h3{
+    font-family: "Spectral", serif;
+    font-size: 24px;
+    color: #2D3E5B;
+    margin-bottom: 15px;
+    font-style: italic;
+
+}
+.skills__item, .education__item{
+    margin-bottom: 30px;
 }
