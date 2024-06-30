@@ -73,6 +73,7 @@ body{
 .contacts__list{
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 .contacts__list img{
     width: 20px;
@@ -90,5 +91,17 @@ body{
 .contacts__item p{
     display: inline-block;
     margin: 0;
-   
+}
+
+.about{
+    margin-top: 80px;
+}
+.about__inner{
+    background-color: #F7F8F8;
+    border-radius: 15px;
+    padding: 35px;
+}
+.about__inner p{
+    font-family: "Spectral", serif;
+    font-size: 27px;
 }
