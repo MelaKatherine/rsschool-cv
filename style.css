@@ -163,3 +163,28 @@ body{
     border-radius: 15px;
     padding: 35px;
 }
+
+.footer{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.footer__inner{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.icon__link{
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+.icon__link img{
+    height: 100%;
+    width: 80px;
+}
+.name{
+    font-size: 20px;
+    color:#DB9291;
+    font-style: italic;
+}
