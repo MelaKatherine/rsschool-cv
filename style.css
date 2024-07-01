@@ -37,7 +37,7 @@ body{
 .container{
     max-width: 1220px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 .header{
     margin-top: 100px;
@@ -187,4 +187,29 @@ body{
     font-size: 20px;
     color:#DB9291;
     font-style: italic;
+}
+
+@media(max-width: 1120px){
+    .contacts__list{
+        flex-wrap: wrap;
+    }
+    .info__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .skills, .education{
+      flex-basis: 700px;
+    }
+    .info__title{
+        text-align: center;
+
+    }
+   
+}
+
+@media(max-width: 950px){
+    .about__inner p{
+        font-size: 22px;
+    }
 }
