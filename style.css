@@ -205,6 +205,9 @@ body{
         text-align: center;
 
     }
+    .header__inner{
+        justify-content: center;
+    }
    
 }
 
