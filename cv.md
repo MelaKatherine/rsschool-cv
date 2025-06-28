@@ -34,7 +34,6 @@ _Digital Academy by Czechitas_
 - Built with React, JavaScript, and API integration
 - Used GitHub for version control and team collaboration
 - Focused on functionality and user experience
-- 🔗 _[Link to GitHub, if available]_
 
 ---
 
@@ -53,7 +52,7 @@ _Digital Academy by Czechitas_
 
 ## 🧩 Code Sample
 
-```js
+```
 async function loadMountains() {
   try {
     const response = await fetch('https://api.example.com/mountains');
@@ -76,9 +75,9 @@ document.addEventListener('DOMContentLoaded', loadMountains);
 
 ## 🗣️ Languages
 
-- 🇨🇿 Czech – B2/C1
-- 🇬🇧 English – B1/B2
-- 🇷🇺 Russian – Native
+- Czech – B2/C1
+- English – B1/B2
+- Russian – Native
 
 ---
 
