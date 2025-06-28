@@ -3,7 +3,7 @@
 _Junior Frontend Developer_
 
 📧 kdatsenka@gmail.com  
-🌍 Czech Republic
+🌍 Czech Republic  
 🔗 [GitHub: MelaKatherine](https://github.com/MelaKatherine)  
 🔗 [LinkedIn](http://www.linkedin.com/in/katerina-datsenka-a175402b0)
 
@@ -31,16 +31,16 @@ I'm curious, constantly learning, and looking for meaningful challenges in tech.
 
 _Digital Academy by Czechitas_
 
-- Built with React, JavaScript, and API integration
-- Used GitHub for version control and team collaboration
-- Focused on functionality and user experience
-
 ---
 
 ## 🎓 Education & Courses
 
 - **Digital Academy Web, Czechitas** _(2025)_  
-  – HTML, CSS, JavaScript, React, Git, API, team project
+  – HTML, CSS, Git, team project
+
+  - Built with React, JavaScript, and API integration
+  - Used GitHub for version control and team collaboration
+  - Focused on functionality and user experience
 
 - **AI for Developers, Czechitas** _(2025)_
 - **HTML & CSS Course, Czechitas** _(2024)_
