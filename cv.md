@@ -25,14 +25,6 @@ I'm curious, constantly learning, and looking for meaningful challenges in tech.
 
 ---
 
-## 👩‍💻 Projects
-
-### 💻 Team Web Application (2025)
-
-_Digital Academy by Czechitas_
-
----
-
 ## 🎓 Education & Courses
 
 - **Digital Academy Web, Czechitas** _(2025)_  
