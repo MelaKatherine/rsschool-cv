@@ -179,3 +179,25 @@ body {
   font-size: 0.8rem;
   font-weight: 600;
 }
+
+/* Interests */
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest-item {
+  background: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 2px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.interest-item:hover {
+  border-color: #4facfe;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(79, 172, 254, 0.2);
+}
