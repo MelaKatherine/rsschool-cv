@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -57,7 +61,7 @@ body {
   font-weight: 300;
 }
 
-.contact-info {
+.header-nav {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -65,31 +69,24 @@ body {
   margin-top: 20px;
 }
 
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 8px 16px;
-  border-radius: 25px;
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-}
-
-.contact-item:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-2px);
-}
-
-.contact-item i {
-  width: 18px;
-  text-align: center;
-}
-
-.contact-item a {
+.nav-item {
   color: white;
   text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  font-weight: 500;
 }
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
 
 .main-content {
   display: grid;
@@ -124,6 +121,50 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: 600;
+}
+
+/* Contact */
+.contact-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid #4facfe;
+  transition: all 0.3s ease;
+}
+
+.contact-sidebar-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 3px 10px rgba(79, 172, 254, 0.2);
+}
+
+.contact-sidebar-item i {
+  width: 20px;
+  text-align: center;
+  color: #4facfe;
+}
+
+.contact-sidebar-item a {
+  color: #4a5568;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-sidebar-item a:hover {
+  color: #4facfe;
+}
+
+.contact-sidebar-item span {
+  color: #4a5568;
+  font-weight: 500;
 }
 
 /* Skills */
