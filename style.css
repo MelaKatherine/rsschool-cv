@@ -273,3 +273,38 @@ body {
 .timeline-description li {
   margin-bottom: 8px;
 }
+
+/* Code  */
+.code-sample {
+  background: #1a202c;
+  color: #e2e8f0;
+  padding: 25px;
+  border-radius: 12px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  border: 1px solid #2d3748;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.code-sample .keyword {
+  color: #63b3ed;
+}
+
+.code-sample .string {
+  color: #68d391;
+}
+
+.code-sample .comment {
+  color: #a0aec0;
+  font-style: italic;
+}
+
+.yellow {
+  color: #ecc94b;
+}
+
+.red {
+  color: #f56565;
+}
