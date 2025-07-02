@@ -214,3 +214,62 @@ body {
   color: #4a5568;
   margin-bottom: 15px;
 }
+
+/* Education */
+.timeline-item {
+  margin-bottom: 35px;
+  padding-left: 25px;
+  border-left: 3px solid #4facfe;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #4facfe;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, 0 0 0 6px #4facfe;
+}
+
+.timeline-date {
+  color: #4facfe;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  background: #e6f7ff;
+  padding: 4px 12px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.timeline-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2d3748;
+}
+
+.timeline-company {
+  color: #718096;
+  font-style: italic;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.timeline-description {
+  color: #4a5568;
+  line-height: 1.7;
+}
+
+.timeline-description ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.timeline-description li {
+  margin-bottom: 8px;
+}
