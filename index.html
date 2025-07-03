@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katerina Datsenka</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
       <header class="header">
         <div class="profile-section">
-          <img src="img/foto.png" alt="Katerina Datsenka" class="profile-img" />
+          <img src="img/foto.png" alt="Katerina Datsenka" class="profile-img">
           <h1>Katerina Datsenka</h1>
           <p class="title">Junior Frontend Developer</p>
           <nav class="header-nav">
@@ -141,7 +139,7 @@
             </div>
           </section>
           <section class="section" id="education">
-            <h2><i class="fas fa-graduation-cap"></i> Education & Courses</h2>
+            <h2><i class="fas fa-graduation-cap"></i> Education &amp; Courses</h2>
 
             <div class="timeline-item">
               <div class="timeline-date">2025</div>
@@ -220,31 +218,31 @@
             <h2><i class="fas fa-code"></i> Code Sample</h2>
             <div class="code-sample">
               <span class="keyword">const</span>
-              <span class="yellow">Form</span> = () =&gt; {
-              <br />
+              <span class="yellow">Form</span> = () =&gt;{
+              <br>
 
               <span class="keyword">const</span> [searchParams, setSearchParams]
               = <span class="yellow">useSearchParams</span>();
-              <br />
+              <br>
               <span class="keyword">const</span> formValues =
               <span class="yellow">readFilterValues</span>(searchParams);
 
-              <br />
+              <br>
 
               <span class="keyword">const</span>
               <span class="yellow">updateSimpleParams</span>
-              = (key, value) =&gt; { <br />
+              = (key, value) =&gt; { <br>
 
               <span class="keyword">let</span>
               params =
               <span class="keyword">new</span>
-              <span class="yellow">URLSearchParams</span>(searchParams); <br />
+              <span class="yellow">URLSearchParams</span>(searchParams); <br>
               params.<span class="yellow">set</span>(key, value.<span
                 class="yellow"
                 >toString</span
               >());
-              <br />
-              <span class="yellow">setSearchParams</span>(params); <br />};
+              <br>
+              <span class="yellow">setSearchParams</span>(params); <br>};
             </div>
           </section>
         </main>
