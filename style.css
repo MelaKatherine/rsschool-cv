@@ -61,7 +61,7 @@ body {
   font-weight: 300;
 }
 
-.header-nav {
+.header-nav ul {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -70,6 +70,11 @@ body {
 }
 
 .nav-item {
+  list-style: none;
+  font-weight: 500;
+}
+.nav-item a {
+  display: inline-block;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -77,10 +82,9 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
-  font-weight: 500;
 }
 
-.nav-item:hover {
+.nav-item a:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
